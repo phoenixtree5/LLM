@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h2>Welcome, {{ user.username }}</h2>
+    <nav>
+        <ul>
+            <li><a href="{% url 'upload' %}">Upload Resource</a></li>
+            <li><a href="{% url 'search' %}">Search Resources</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
