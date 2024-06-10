@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Personal</title>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<!-- 引入CSS文件 -->
+<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+<link href="{% static 'css/style.css' %}" rel="stylesheet">
+<link href="{% static 'css/responsive.css'%} " rel="stylesheet">
+
+<link rel="shortcut icon" href="{% static 'images/favicon.png' %}" type="image/x-icon">
+<link rel="icon" href="{% static 'images/favicon.png' %}" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+<body>
+    <section class="page-title">
+    	<div class="auto-container">
+        	<h1>Personal</h1>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="form-container">
+            <div class="header">个人账户</div>
+            <div class="form-group">
+                <label for="fileName">用户名：</label>
+            </div>
+            <div class="form-group">
+                <label for="fileName">用户ID：</label>
+            </div>
+            <div class="form-group">
+                <label for="fileName">分值：</label>
+            </div>
+            <div class="sidebar-widget categories">
+                <div class="sidebar-title"><h2>全部搜索结果：</h2></div>
+                <ul class="category-list">
+                    <li>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
